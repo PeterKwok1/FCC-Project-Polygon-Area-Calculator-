@@ -1,15 +1,13 @@
 
 # Polygon Area Calculator 
 
-Rectangle class with set_width, set_height, get_area, get_perimeter, get_diagonal, get_picture, and get_amount_inside methods. 
+## Description
+- Rectangle class with set_width, set_height, get_area, get_perimeter, get_diagonal, get_picture, and get_amount_inside methods. 
+- Rectangle.get_picture() prints the rectangle
+- Rectangle.get_amount_inside() takes another rectangle and returns the number of times it fits inside this one without rotating it.
+- Square subclass with additional set_side method. 
 
-Rectangle.get_picture() prints the rectangle
-
-Rectangle.get_amount_inside() takes another rectangle and returns the number of times it fits inside this one without rotating it.
-
-Square subclass with additional set_side method. 
-
-Example
+## Example
 ```
 rect = Rectangle(10, 5)
 print(rect.get_area())
@@ -48,8 +46,5 @@ Square(side=4)
 8
 ```
 
-For the purpose of reviewing python to follow cse 312. 
-
-
-
-
+## Purpose 
+To review python to follow cse 312. 
